@@ -1,0 +1,1135 @@
+@import './variables.scss';
+
+//================ all lables ===========================================
+
+.label.label-outlined.label-primary {
+    border-color: $color-label-primary;
+    color: $color-label-primary;
+  }
+  
+  .label.label-outlined.label-success {
+    border-color: $color-label-success;
+    color: $color-label-success;
+  }
+  
+  .label.label-outlined.label-warning {
+    border-color: $color-label-warning;
+    color: $color-label-warning;
+  }
+  
+  .label.label-outlined.label-danger {
+    border-color: $color-label-danger;
+    color: $color-label-danger;
+  }
+  
+  .label.label-outlined.label-secondary {
+    border-color: $color-cloud-burst;
+    color: $color-cloud-burst;
+  }
+  
+  .label.label-outlined.label-default {
+    border-color: $color-storm-grey;
+    color: $color-storm-grey;
+  }
+  
+  .label.label-outlined.label-info {
+    border-color: $color-label-info;
+    color: $color-label-info;
+  }
+//============================  login page ===============================
+
+.login {
+    span.light-text {
+        color: $color-label-default !important;
+    }
+    .login-btn {
+        border-color: $color-cloud-burst;
+        background-color: $color-solitude;
+        color: $color-cloud-burst;
+    }
+    .login-btn:hover , .submit-btn , .back-btn , .p-login {
+        border-color: $color-cloud-burst;
+        background-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+
+//============================nav bar ====================================
+.header {
+    border-bottom: 2px solid $color-navbar-border;
+    .user-circle {
+        border-color: $color-cloud-burst;
+    }
+}
+.nav-user-popover {
+    .popover {
+        .user-circle {
+            border-color: $color-cloud-burst;
+        }
+        p {
+            color: $color-cloud-burst ;
+        }
+    }
+}
+
+.logout-modal {
+    .btn-secondary , .btn-cancel:hover {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .btn-cancel {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+}
+
+.user-profile-div {
+    a.active {
+        color: $color-cloud-burst !important;
+        border-bottom : 2.5px solid $color-cloud-burst;
+    }
+    a.nav-link {
+        color: $color-mischka;
+    }
+    .bg-light-blue {
+        background-color: $color-thin-blue;
+    }
+    thead {
+        background-color: $color-grey-light;
+    }
+    .btn-dark {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .user-profile-circle {
+        border : 2.5px solid $color-cloud-burst
+    }
+}
+.update-image-modal {
+    .btn-secondary , .btn-cancel:hover {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .btn-cancel {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+}
+
+//=========================== side nav bar ===================================
+
+.side-nav-bar {
+  background-color: $color-cloud-burst;
+  .rect {
+      background-color: $color-rect;
+  }
+  .highlight {
+      color: $color-rect;
+      background-color: $color-white;
+  }
+  .white-border {
+      border-color: $color-horizantal-line;
+  }
+}
+
+//======================== bookings front page ================================
+
+.booking {
+    background-color: $color-azure;
+    /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: $color-grey;
+  }
+    .my-bookings-card {
+        .calendar-card {
+            .text-light-cloud-burst {
+                color: $color-cloud-burst;
+            }
+            .text-mandy {
+                color: $color-mandy;
+            }
+        }
+        span.light-text {
+            color: $color-label-default;
+        }
+        #bookMeetingOrDesk {
+            background-color: $color-cloud-burst;
+            border-color: $color-cloud-burst;
+            color: $color-white;
+        }
+        .buttonBismark2 , .bismark2Dropdown {
+            background-color: $color-bismark2;
+            border-color: $color-bismark2;
+            .circle-dropdown {
+                border : 1px solid $color-white ;
+            }
+        }
+    }
+}
+
+.main-content {
+    .bg-azure {
+        background-color: $color-azure;
+    }
+}
+.bookingListTableBorder {
+    border-left: 4px solid $color-cloud-burst !important;
+}
+
+.covid-div {
+    border: 1px solid $color-cinnabar;
+    h2 {
+        color: $color-cinnabar;
+    }
+    .div-text {
+        background-color: $color-white-smoke;
+    }
+}
+
+.actions-card {
+    background-color: $color-azure;
+}
+
+//===============  booking modal window ====================================
+
+.booking-modal-window {
+    .modal-content {
+        .title {
+            color: $color-cloud-burst;
+        }
+        div.light-text {
+            color: $color-label-default;
+        }
+        .bg-azure {
+            background-color: $color-azure;
+        }
+    }
+    .workstation-border , .selected-div {
+        border: 1px solid $color-cloud-burst;
+    }
+    .next-btn , .ok-btn , .back-btn:hover  {
+        background-color: $color-cloud-burst;
+            border-color: $color-cloud-burst;
+            color: $color-white;
+    }
+    .back-btn {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+    .available-shift-card {
+        background-color: $color-ghost-white !important;
+        color: $color-cloud-burst !important;
+    }
+    .selected-shift-card {
+        background-color: $color-cloud-burst !important;
+        color: $color-white !important;
+    }
+    .react-calendar__navigation button:enabled:hover,
+.react-calendar__navigation button:enabled:focus {
+    background-color: $color-ghost-white;
+}
+.react-calendar__navigation button[disabled] {
+    background-color: $color-white-smoke;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: $color-free-speech-red;
+}
+.react-calendar__month-view__days__day--neighboringMonth {
+    color: $color-ghost !important;
+}
+.react-calendar__tile {
+    // max-width: 100%;
+    background: $color-white;
+}
+.react-calendar__tile:disabled {
+    background-color: $color-white-smoke;
+}
+
+.react-calendar__tile:enabled:hover {
+    background-color: $color-ghost-white;
+}
+
+.react-calendar__tile--hasActive {
+    background: $color-maya-blue;
+}
+.react-calendar__tile--hasActive:enabled:hover,
+.react-calendar__tile--hasActive:enabled:focus {
+    background: $color-pale-cornflower-blue;
+}
+.react-calendar__tile--active {
+    background: $color-navy-blue;
+    color: $color-white;
+}
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+    background: $color-dodger-blue;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+    background-color: $color-ghost-white;
+}
+
+// calendar css over ridden here
+
+.react-calendar {
+    background: $color-azure;
+    color: $color-cloud-burst;
+}
+
+.react-calendar__month-view__weekdays {
+    background: $color-white;
+}
+
+.react-calendar__tile--active {
+    background: $color-cloud-burst !important;
+    color: $color-white !important;
+}
+
+.react-calendar__tile--active:enabled:hover,
+.react-calendar__tile--active:enabled:focus {
+    background: $color-cloud-burst;
+}
+
+.react-calendar__month-view__days__day--weekend {
+    color: $color-cloud-burst;
+}
+.react-calendar__tile__month-view__days__day {
+    color: $color-cloud-burst;
+}
+
+.card-props {
+    background: $color-cloud-burst !important;
+    color: $color-white;
+}
+
+
+.react-calendar__tile:enabled:hover {
+    background: $color-cloud-burst !important;
+    color: $color-white;
+}
+
+.react-calendar__navigation__label {
+    color: $color-cloud-burst;
+    background: $color-ghost-white !important;
+}
+
+.react-calendar__navigation__prev-button {
+    background-color: $color-ghost-white !important;
+}
+
+.react-calendar__navigation__next-button {
+    background-color: $color-ghost-white !important;
+}
+
+.react-calendar__month-view__days {
+    background-color: $color-ghost-white !important;
+}
+
+.react-calendar__tile--hoverStart {
+    background: $color-cloud-burst;
+    background-color: $color-cloud-burst;
+    color: $color-white !important;
+}
+.react-calendar--selectRange .react-calendar__tile--hover {
+    background: $color-cloud-burst;
+    background-color: $color-cloud-burst;
+    color: $color-white !important;
+}
+.react-calendar__tile:disabled {
+    background-color: $color-white-smoke !important;
+    color: $color-cloud-burst !important;
+}
+
+.react-calendar__tile--now {
+    background-color: $color-pale-cornflower-blue;
+}
+
+.DateRangePicker__CalendarSelection{
+    border: 1px solid $color-cloud-burst;
+    background-color: $color-cloud-burst !important;
+}
+
+.DateRangePicker__CalendarSelection--is-pending{
+    background-color: $color-blue !important;
+    color: $color-white !important;
+}
+
+.DateRangePicker__CalendarHighlight--single{
+  border: $color-cloud-burst !important; 
+  background-color: $color-blue  !important;
+  color: $color-white !important;
+}
+
+.DateRangePicker__MonthHeader{
+    background-color: $color-azure;
+}
+
+.DateRangePicker__PaginationArrow:hover .DateRangePicker__PaginationArrowIcon--next
+{   
+    border-left-color: $color-cloud-burst;
+}
+.DateRangePicker__PaginationArrow:hover .DateRangePicker__PaginationArrowIcon--previous{
+    border-right-color: $color-cloud-burst;
+}
+.DateRangePicker__CalendarDatePeriod--am {
+    background: $color-pattens-blue !important ;
+}
+.DateRangePicker__CalendarDatePeriod--pm{
+    border: 1px solid $color-pattens-blue !important;
+}
+#shifts {
+    /* Handle */
+     ::-webkit-scrollbar-thumb {
+     background: $color-grey;
+     }
+}
+.text-color-amber{
+ color: $color-amber;
+}
+.fc-timegrid-col{
+    background-color: $color-white !important;
+}
+.fc-scrollgrid-section-header {
+    background-color:$color-azure;
+}
+.MobileNumber-field{
+    border: 1px solid $color-grey-light;
+}
+
+}
+
+.partialBookingCalendar {
+    .fc-scrollgrid-section-header {
+         background-color:$color-azure;
+     }
+     .fc-col-header-cell-cushion{
+         color: $color-night-rider;
+         border-color: $color-azure;
+     }
+     .fc .fc-timegrid-slot-label-cushion {
+         color: $color-grey-chateau;
+     }
+ .fc-timegrid-col{
+     background-color: $color-white !important;
+ }
+ .fc .fc-next-button{
+     background-color: $color-white;
+     color: $color-ink;
+ }
+ .fc .fc-prev-button {
+     background-color: $color-white;
+     color: $color-ink;
+ }
+ .fc-next-button:enabled:hover{
+     background: $color-cloud-burst !important;
+     color:$color-white !important;
+ }
+ .fc-prev-button:enabled:hover{
+     background: $color-cloud-burst !important;
+     color:$color-white !important;
+ }
+ .fc-header-toolbar {
+     background:$color-azure ;
+ }
+ }
+
+ .customTimeFullcalendar {
+     svg {
+         fill: $color-cloud-burst;
+     }
+     .btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+     }
+     span.text-black , div.text-black {
+         color : $color-black;
+     }
+ }
+
+//=========================  booking layout ==================================
+
+.booking-layout {
+    .tree-floor-btn,
+    .tree-floor-outline-btn:hover ,
+    .date-time-btn:hover ,
+    .refresh-btn ,
+    .get-spaces-btn ,
+    .reset-bookings-btn ,
+    .next-btn ,
+    .back-button:hover
+    {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .back-button {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+    .tree-floor-outline-btn , .whiteDropDown , .whiteDropDown:focus , .date-time-btn{
+        border-color: $color-cloud-burst;
+        color: $color-cloud-burst;
+        background-color: $color-white;
+    }
+    .bufferBackground {
+    background-color: $color-buffer;
+}
+
+.MuiIconButton-colorPrimary {
+    color: $color-cloud-burst !important;
+}
+
+.MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+    background-color: $color-white !important;
+}
+.text-alizarin {
+    color: $color-alizarin;
+}
+.selected-space {
+    background-color: $color-buffer;
+    .border-top-1px-azure {
+        border-top:1px solid $color-azure;
+    }
+    .btn , .btn:focus{
+        color: $color-white;
+        background-color: $color-label-danger;
+        border-color: $color-label-danger;
+    }
+}
+
+}
+.zommcontrols{
+    background-color: $color-pure-white ;
+} 
+.icon-popover {
+    .close-btn , .book-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.guest-paper {
+    .add-guest-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.MuiAutocomplete-tag {
+    background-color: $color-cloud-burst !important;
+    color: $color-white !important;
+    svg {
+        fill: $color-white;
+    }
+}
+.save-guest-modal {
+    .add-btn , .ok-btn , .update-btn , .greyButton:hover {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .greyButton {
+        border-color: $color-pink-swan;
+        color: $color-pink-swan;
+        background-color: $color-white;
+    }
+}
+//==========================  cancel booking  ==============================
+#cancelBooking {
+    .light-text {
+        color: $color-label-default;
+    }
+    .cancel-btn , .ok-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .cancel-bg {
+        background-color: $color-ghost-white;
+    }
+}
+//==========================  confirm-booking-modal ========================
+.confirm-booking-modal {
+    .confirm-btn , .ok-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .confirm-bg {
+        background-color: $color-ghost-white;
+    }
+    span.chip {
+        background-color: $color-cloud-burst;
+        color:$color-white;
+    }
+    .ant-timeline-item-tail {
+        border-left: 3px solid $color-cloud-burst !important;
+      }
+      
+      .ant-timeline-item-head-gray {
+        color: $color-cloud-burst !important;
+        border-color: $color-cloud-burst !important
+      }
+      .light-text {
+          color: $color-label-default;
+      }
+}
+
+//====================  prescreen modal =====================================
+.prescreen-modal {
+    div.light-text {
+        color: $color-label-default ;
+    }
+    .screening-right-container {
+        background-color: $color-ghost-white;
+    }
+    .ok-btn , .finish-btn , .next-btn , .back-btn{
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+
+//=========================== access modal ==================================
+.access-modal {
+    .access-bg {
+        background-color: $color-ghost-white;
+    }
+    .ok-btn , .confirm-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+
+//===================  ocupy modal ======================================
+.ocupy-modal {
+    .ocupy-bg {
+        background-color: $color-ghost-white;
+    }
+    h4 {
+        color: $color-label-default ;
+    }
+    .ok-btn , .confirm-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+
+//================== release modal ======================================
+.release-modal {
+    .confirm-btn , .ok-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    h4 {
+        color: $color-label-default;
+    }
+}
+
+//======================== my-bookings page ================================
+.my-bookings {
+    .book-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .close-text {
+        color: $color-thick-grey;
+    }
+    .bg-panelColor {
+        background-color: $color-ghost-white;
+    }
+    .fc .fc-bg-event{
+        background-color: #e1eff7 !important;
+    }
+    .fc-scrollgrid-sync-inner {
+        background-color: $color-ghost-white;
+        color: $color-dark-blue;
+    }
+    
+    .fc-daygrid-day-frame {
+        background-color: white;
+    }
+
+    table a,
+    table a:hover {
+        color: $color-dark-blue;
+    }
+    
+    .fc-daygrid-event {
+        background-color: $color-lightBlue;
+        color: $color-white;
+    }
+    
+    .fc-daygrid-event:hover{
+        background-color: $color-dark-blue;
+        color: $color-white;
+    }
+    
+    .fc .fc-timeGridWeek-button {
+        background-color: $color-white;
+        color: $color-cloud-burst;
+    }
+    
+    .fc .fc-dayGridMonth-button {
+        background-color: $color-white;
+        color: $color-cloud-burst;
+    }
+    
+    .fc .fc-timeGridDay-button {
+        background-color: $color-white;
+        color: $color-cloud-burst;
+    }
+    
+    .fc .fc-prev-button {
+        background-color: $color-white;
+        color: $color-ink;
+    }
+    
+    .fc .fc-next-button {
+        background-color: $color-white;
+        color: $color-ink;
+    }
+    
+    .booking-panel-white {
+        background-color: $color-white;
+    }
+    
+    .arrow-down {
+        border-top: 12px solid $color-white;
+    }
+    
+    .preScreen-button {
+        color: $color-white;
+        background-color: $color-ink;
+    }
+    
+    .fc-header-toolbar {
+        background-color: $color-ghost-white;
+    }
+    
+    .fc .fc-button-primary:not(:disabled):active,
+    .fc .fc-button-primary:not(:disabled).fc-button-active {
+        color: $color-pure-white;
+        color: var(--fc-button-text-color, $color-pure-white);
+        background-color: $color-cloud-burst;
+        background-color: var(--fc-button-active-bg-color, $color-cloud-burst);
+        border-color: $color-cloud-burst;
+        border-color: var(--fc-button-active-border-color, $color-cloud-burst);
+    }
+
+    .guestEvent {
+        background-color: $color-lightBlue;
+        color: $color-white;
+    }
+    .employeeEvent{
+        background-color:#66cdaa;
+        color: $color-white;
+    }
+    .employeeEventIndicator{
+        background-color:#66cdaa;
+        color: #000;
+    }
+    .guestEventIndicator{
+        background-color: $color-lightBlue;
+        color: #000;
+    }
+}
+
+//======================= analytics ==========================================
+
+.analytics {
+    .analytics-font {
+        color: $color-cloud-burst;
+    }
+}
+
+//===================  space management  =================================
+.space-management {
+    a.active {
+        color: $color-cloud-burst;
+        border-bottom: 2.5px solid $color-cloud-burst;
+    }
+    .space-bg {
+        background-color: $color-thin-blue;
+    }
+    .replace-btn , .discard-btn {
+        background-color: $color-white;
+        border-color: $color-cloud-burst;
+        color: $color-cloud-burst;
+    }
+    .replace-btn:hover , .save-btn , .update-btn{
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .card-border {
+        border-bottom: 1px solid $color-cancel;
+    }
+}
+.update-modal {
+    .ok-btn {
+        background-color: $color-update;
+        border-color: $color-update;
+        color: $color-white;
+    }
+    .cancel-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.react-select__control {
+    background-color: $color-thin-blue !important;
+}
+.popover-bg {
+    background-color: $color-thin-blue;
+    .add-btn , .remove-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.allocation-modal {
+    .head-bg {
+        background-color: $color-ghost-white;
+    }
+    .btn-remove {
+        border-color: $color-cloud-burst;
+        background-color: $color-ghost-white;
+        color: $color-cloud-burst;
+    }
+    .btn-cancel {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+    .save-btn , .btn-cancel:hover , .ok-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.assign-popover {
+    background-color: $color-thin-blue;
+    .btn {
+        border-color: $color-cloud-burst;
+        background-color: $color-white;
+        color: $color-cloud-burst;
+    }
+    .btn:hover {
+        background-color: $color-cloud-burst !important;
+        border-color: $color-cloud-burst !important;
+        color: $color-white !important;
+    }
+}
+
+.update-space-modal {
+    .btn-cancel {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+    .update-btn , .btn-cancel:hover , .ok-btn , .greyButton:hover{
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    .greyButton {
+        color: $color-pink-swan;
+    border-color: $color-pink-swan; 
+    }
+}
+.cancel-booking-modal {
+    .greyButton {
+        color: $color-pink-swan;
+    border-color: $color-pink-swan; 
+    }
+    .confirm-btn , .ok-btn , .greyButton:hover{
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+    thead {
+        background-color: $color-table-head;
+    }
+}
+//================= admin maintenance ====================================
+.adminMaintenance {
+    a.nav-link {
+        color: $color-cloud-burst;
+    }
+    a.active {
+        color: $color-cloud-burst;
+        border-bottom: 2.5px solid $color-cloud-burst;
+    }
+    .am-bg {
+        background-color: $color-thin-blue;
+    }
+    .am-card-bg {
+        background-color: $color-white;
+        thead {
+            background-color: $color-table-head;
+        }
+    }
+    .mark-as-cleaned-btn {
+        background-color: $color-cloud-burst;
+        color: $color-white;
+        border-color: $color-cloud-burst;
+    }
+    #ExportwithOutEmp , #Filters {
+        background-color: $color-table-head;
+        color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+    }
+    #ExportwithEmp , .cancel-bookings-btn{
+        background-color: $color-cloud-burst;
+        color: $color-white;
+        border-color: $color-cloud-burst;
+    }
+    .badge {
+        background-color: $color-zodiac;
+        color: $color-white;
+        border-color: $color-zodiac;
+    }
+}
+
+.confirm-cleaning-modal {
+    .confrim-bg {
+        background-color: $color-table-head;
+    }
+    .btn-remove {
+        color: $color-cloud-burst;
+        background-color: $color-table-head;
+        border-color: $color-cloud-burst;
+    }
+    .confirm-btn , .ok-btn {
+        background-color: $color-cloud-burst;
+        color: $color-white;
+        border: $color-cloud-burst;
+    }
+}
+.export-without-popover , .export-with-popover , .search-popover {
+    .btn {
+        background-color: $color-cloud-burst;
+        color: $color-white;
+        border-color: $color-cloud-burst;
+    }
+}
+
+.checkbox {
+    label {
+        &:before {
+            background-color: $color-white;
+            border: 1px solid  $color-red-gray;
+        }
+        &:after {
+            border-bottom: 2px solid $color-white;
+            border-left: 2px solid $color-white;
+        }
+    }
+    input[type="checkbox"] {
+        &:checked ~ label {
+            &:before {
+                border: 2px solid $color-blue-zodiac;
+            }
+        }
+    }
+    input[type="checkbox"]:checked + label:before {
+        background: $color-blue-zodiac;
+    }
+  }
+  
+  span.sort-by:before {
+    border-bottom-color: $color-grey2;
+  }
+  span.sort-by:after {
+    border-top-color: $color-grey2;
+  }
+
+  .thin-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px $color-gray;
+  }
+  
+  /* Handle */
+  .thin-scrollbar::-webkit-scrollbar-thumb {
+    background: $color-gray-chateau;
+  }
+.table-responsive::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px $color-gray;
+  }
+  
+  .table-responsive::-webkit-scrollbar-thumb {
+    background: $color-gray-chateau;
+  }
+  input[type="checkbox"]:disabled + label:before {
+    cursor: not-allowed;
+    border-color: $dark-grey !important;
+    color: $dark-grey !important;
+    background: $color-grey-light !important;
+  }
+
+
+  //========================= employees  =============================
+
+  .employees {
+      a.nav-link {
+          color: $color-cloud-burst;
+      }
+      a.active {
+          color: $color-cloud-burst;
+          border-bottom: 2.5px solid $color-cloud-burst;
+      }
+      .employee-bg , .card-bg {
+          background-color: $color-thin-blue;
+      }
+      .employee-card-bg {
+          background-color: $color-white;
+      }
+      thead {
+          background-color: $color-table-head;
+      }
+      .export-btn , .search-btn {
+          border-color: $color-cloud-burst;
+          background-color: $color-table-head;
+          color: $color-cloud-burst;
+      }
+      .badge {
+          background-color: $color-zodiac;
+          color: $color-white;
+          border-color: $color-zodiac;
+      }
+      .general-info {
+          .card-bg {
+              background-color: $color-table-head;
+          }
+          thead {
+              background-color: $color-white !important;
+          }
+      }
+      .checkbox {
+        label {
+            &:before {
+                background-color: $color-white;
+                border: 1px solid $color-red-gray;
+            }
+            &:after {
+                border-bottom: 2px solid $color-white;
+                border-left: 2px solid $color-white;
+            }
+        }
+        input[type="checkbox"] {
+            &:checked ~ label {
+                &:before {
+                    border: 2px solid $color-blue-zodiac;
+                }
+            }
+        }
+        input[type="checkbox"]:checked + label:before {
+            background: $color-blue-zodiac;
+        }
+    }
+    .sfilterarrow:after {
+        border-color: rgba(136, 183, 213, 0);
+        border-left-color: $color-thin-blue;
+    }
+    .sfilterarrow:before {
+        border-color: rgba(53, 245, 39, 0);
+        border-left-color: rgba(0, 0, 0, 0.125);
+    }
+    span.sort-by:before {
+        border-bottom-color: #666;
+    }
+    span.sort-by:after {
+        border-top-color: #666;
+    }
+    .input-search{
+        background-color: $color-grey-light;
+    }
+    .pagination-input{
+        background-color: $color-grey-light;
+    }
+    .pagination button{
+        border: solid white;
+        background-color: white;
+    }
+    .pagination select{
+        background-color: $color-grey-light;
+    }
+    .link-text > a {
+        color: $color-cloud-burst !important;
+    }
+    /* Track */
+.thin-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px $color-gray;
+}
+
+/* Handle */
+.thin-scrollbar::-webkit-scrollbar-thumb {
+    background: $color-gray-chateau;
+}
+.label {
+    color: $color-white;
+}
+.react-daterange-picker__wrapper {
+    border: thin solid hsl(0, 0%, 80%);
+}
+.edit-btn , .close-btn {
+    background-color: $color-white;
+    color: $color-cloud-burst;
+    border-color: $color-cloud-burst;
+}
+.edit-btn:hover , .close-btn:hover {
+    background-color: $color-cloud-burst;
+    color: $color-white;
+    border-color: $color-cloud-burst;
+}
+.employee-filter {
+    #Filters {
+        background-color: $color-cloud-burst;
+        color: $color-white;
+        border-color: $color-cloud-burst;
+    }
+}
+}
+
+.export-popover , .search-popover , .employeesPopoverCustom {
+      .btn {
+          background-color: $color-zodiac;
+          color: $color-white;
+          border-color: $color-zodiac;
+      }
+  }
+
+.edit-employee-modal {
+    .btn-cancel {
+        background-color: $color-cancel;
+        border-color: $color-cancel;
+        color: $color-label-default;
+    }
+    .update-btn , .btn-cancel:hover , .ok-btn {
+        background-color: $color-cloud-burst;
+        border-color: $color-cloud-burst;
+        color: $color-white;
+    }
+}
+.modal-cancel-btn{
+    color: $color-pink-swan;
+    border-color: $color-pink-swan;
+}
+.modal-cancel-btn:hover {
+    color: $color-white;
+    border-color: $color-cloud-burst;
+    background-color: $color-cloud-burst;
+}

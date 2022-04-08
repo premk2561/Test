@@ -1,0 +1,886 @@
+/*!*************************************************************************************************************************!*\
+  !*** css ./node_modules/css-loader/dist/cjs.js!./node_modules/sass-loader/dist/cjs.js!./src/default-theme/default.scss ***!
+  \*************************************************************************************************************************/
+.label.label-outlined.label-primary {
+  border-color: #0071bc;
+  color: #0071bc; }
+
+.label.label-outlined.label-success {
+  border-color: #54c500;
+  color: #54c500; }
+
+.label.label-outlined.label-warning {
+  border-color: #f15a24;
+  color: #f15a24; }
+
+.label.label-outlined.label-danger {
+  border-color: #dc3545;
+  color: #dc3545; }
+
+.label.label-outlined.label-secondary {
+  border-color: #3a4354;
+  color: #3a4354; }
+
+.label.label-outlined.label-default {
+  border-color: #7c7d81;
+  color: #7c7d81; }
+
+.label.label-outlined.label-info {
+  border-color: #00a99d;
+  color: #00a99d; }
+
+.login span.light-text {
+  color: #808080 !important; }
+
+.login .login-btn {
+  border-color: #3a4354;
+  background-color: #f1f2f4;
+  color: #3a4354; }
+
+.login .login-btn:hover, .login .submit-btn, .login .back-btn, .login .p-login {
+  border-color: #3a4354;
+  background-color: #3a4354;
+  color: #ffffff; }
+
+.header {
+  border-bottom: 2px solid #a5a9b1; }
+  .header .user-circle {
+    border-color: #3a4354; }
+
+.nav-user-popover .popover .user-circle {
+  border-color: #3a4354; }
+
+.nav-user-popover .popover p {
+  color: #3a4354; }
+
+.logout-modal .btn-secondary, .logout-modal .btn-cancel:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.logout-modal .btn-cancel {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.user-profile-div a.active {
+  color: #3a4354 !important;
+  border-bottom: 2.5px solid #3a4354; }
+
+.user-profile-div a.nav-link {
+  color: #a9b0b9; }
+
+.user-profile-div .bg-light-blue {
+  background-color: #f3f9fc; }
+
+.user-profile-div thead {
+  background-color: #eef1f6; }
+
+.user-profile-div .btn-dark {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.user-profile-div .user-profile-circle {
+  border: 2.5px solid #3a4354; }
+
+.update-image-modal .btn-secondary, .update-image-modal .btn-cancel:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.update-image-modal .btn-cancel {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.side-nav-bar {
+  background-color: #3a4354; }
+  .side-nav-bar .rect {
+    background-color: #4e5664; }
+  .side-nav-bar .highlight {
+    color: #4e5664;
+    background-color: #ffffff; }
+  .side-nav-bar .white-border {
+    border-color: #7c7d81; }
+
+.booking {
+  background-color: #f3f4f4;
+  /* Handle */ }
+  .booking ::-webkit-scrollbar-thumb {
+    background: #888888; }
+  .booking .my-bookings-card .calendar-card .text-light-cloud-burst {
+    color: #3a4354; }
+  .booking .my-bookings-card .calendar-card .text-mandy {
+    color: #d84e59; }
+  .booking .my-bookings-card span.light-text {
+    color: #808080; }
+  .booking .my-bookings-card #bookMeetingOrDesk {
+    background-color: #3a4354;
+    border-color: #3a4354;
+    color: #ffffff; }
+  .booking .my-bookings-card .buttonBismark2, .booking .my-bookings-card .bismark2Dropdown {
+    background-color: #516575;
+    border-color: #516575; }
+    .booking .my-bookings-card .buttonBismark2 .circle-dropdown, .booking .my-bookings-card .bismark2Dropdown .circle-dropdown {
+      border: 1px solid #ffffff; }
+
+.main-content .bg-azure {
+  background-color: #f3f4f4; }
+
+.bookingListTableBorder {
+  border-left: 4px solid #3a4354 !important; }
+
+.covid-div {
+  border: 1px solid #e94c23; }
+  .covid-div h2 {
+    color: #e94c23; }
+  .covid-div .div-text {
+    background-color: #f8f8f8; }
+
+.actions-card {
+  background-color: #f3f4f4; }
+
+.booking-modal-window .modal-content .title {
+  color: #3a4354; }
+
+.booking-modal-window .modal-content div.light-text {
+  color: #808080; }
+
+.booking-modal-window .modal-content .bg-azure {
+  background-color: #f3f4f4; }
+
+.booking-modal-window .workstation-border, .booking-modal-window .selected-div {
+  border: 1px solid #3a4354; }
+
+.booking-modal-window .next-btn, .booking-modal-window .ok-btn, .booking-modal-window .back-btn:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.booking-modal-window .back-btn {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.booking-modal-window .available-shift-card {
+  background-color: #f2f3fa !important;
+  color: #3a4354 !important; }
+
+.booking-modal-window .selected-shift-card {
+  background-color: #3a4354 !important;
+  color: #ffffff !important; }
+
+.booking-modal-window .react-calendar__navigation button:enabled:hover,
+.booking-modal-window .react-calendar__navigation button:enabled:focus {
+  background-color: #f2f3fa; }
+
+.booking-modal-window .react-calendar__navigation button[disabled] {
+  background-color: #f8f8f8; }
+
+.booking-modal-window .react-calendar__month-view__days__day--weekend {
+  color: #d10000; }
+
+.booking-modal-window .react-calendar__month-view__days__day--neighboringMonth {
+  color: #bcbcbd !important; }
+
+.booking-modal-window .react-calendar__tile {
+  background: #ffffff; }
+
+.booking-modal-window .react-calendar__tile:disabled {
+  background-color: #f8f8f8; }
+
+.booking-modal-window .react-calendar__tile:enabled:hover {
+  background-color: #f2f3fa; }
+
+.booking-modal-window .react-calendar__tile--hasActive {
+  background: #76baff; }
+
+.booking-modal-window .react-calendar__tile--hasActive:enabled:hover,
+.booking-modal-window .react-calendar__tile--hasActive:enabled:focus {
+  background: #a9d4ff; }
+
+.booking-modal-window .react-calendar__tile--active {
+  background: #006edc;
+  color: #ffffff; }
+
+.booking-modal-window .react-calendar__tile--active:enabled:hover,
+.booking-modal-window .react-calendar__tile--active:enabled:focus {
+  background: #1087ff; }
+
+.booking-modal-window .react-calendar--selectRange .react-calendar__tile--hover {
+  background-color: #f2f3fa; }
+
+.booking-modal-window .react-calendar {
+  background: #f3f4f4;
+  color: #3a4354; }
+
+.booking-modal-window .react-calendar__month-view__weekdays {
+  background: #ffffff; }
+
+.booking-modal-window .react-calendar__tile--active {
+  background: #3a4354 !important;
+  color: #ffffff !important; }
+
+.booking-modal-window .react-calendar__tile--active:enabled:hover,
+.booking-modal-window .react-calendar__tile--active:enabled:focus {
+  background: #3a4354; }
+
+.booking-modal-window .react-calendar__month-view__days__day--weekend {
+  color: #3a4354; }
+
+.booking-modal-window .react-calendar__tile__month-view__days__day {
+  color: #3a4354; }
+
+.booking-modal-window .card-props {
+  background: #3a4354 !important;
+  color: #ffffff; }
+
+.booking-modal-window .react-calendar__tile:enabled:hover {
+  background: #3a4354 !important;
+  color: #ffffff; }
+
+.booking-modal-window .react-calendar__navigation__label {
+  color: #3a4354;
+  background: #f2f3fa !important; }
+
+.booking-modal-window .react-calendar__navigation__prev-button {
+  background-color: #f2f3fa !important; }
+
+.booking-modal-window .react-calendar__navigation__next-button {
+  background-color: #f2f3fa !important; }
+
+.booking-modal-window .react-calendar__month-view__days {
+  background-color: #f2f3fa !important; }
+
+.booking-modal-window .react-calendar__tile--hoverStart {
+  background: #3a4354;
+  background-color: #3a4354;
+  color: #ffffff !important; }
+
+.booking-modal-window .react-calendar--selectRange .react-calendar__tile--hover {
+  background: #3a4354;
+  background-color: #3a4354;
+  color: #ffffff !important; }
+
+.booking-modal-window .react-calendar__tile:disabled {
+  background-color: #f8f8f8 !important;
+  color: #3a4354 !important; }
+
+.booking-modal-window .react-calendar__tile--now {
+  background-color: #a9d4ff; }
+
+.booking-modal-window .DateRangePicker__CalendarSelection {
+  border: 1px solid #3a4354;
+  background-color: #3a4354 !important; }
+
+.booking-modal-window .DateRangePicker__CalendarSelection--is-pending {
+  background-color: #17a2b8 !important;
+  color: #ffffff !important; }
+
+.booking-modal-window .DateRangePicker__CalendarHighlight--single {
+  border: #3a4354 !important;
+  background-color: #17a2b8 !important;
+  color: #ffffff !important; }
+
+.booking-modal-window .DateRangePicker__MonthHeader {
+  background-color: #f3f4f4; }
+
+.booking-modal-window .DateRangePicker__PaginationArrow:hover .DateRangePicker__PaginationArrowIcon--next {
+  border-left-color: #3a4354; }
+
+.booking-modal-window .DateRangePicker__PaginationArrow:hover .DateRangePicker__PaginationArrowIcon--previous {
+  border-right-color: #3a4354; }
+
+.booking-modal-window .DateRangePicker__CalendarDatePeriod--am {
+  background: #e1eff7 !important; }
+
+.booking-modal-window .DateRangePicker__CalendarDatePeriod--pm {
+  border: 1px solid #e1eff7 !important; }
+
+.booking-modal-window #shifts {
+  /* Handle */ }
+  .booking-modal-window #shifts ::-webkit-scrollbar-thumb {
+    background: #888888; }
+
+.booking-modal-window .text-color-amber {
+  color: #ffbf00; }
+
+.booking-modal-window .fc-timegrid-col {
+  background-color: #ffffff !important; }
+
+.booking-modal-window .fc-scrollgrid-section-header {
+  background-color: #f3f4f4; }
+
+.booking-modal-window .MobileNumber-field {
+  border: 1px solid #eef1f6; }
+
+.partialBookingCalendar .fc-scrollgrid-section-header {
+  background-color: #f3f4f4; }
+
+.partialBookingCalendar .fc-col-header-cell-cushion {
+  color: #333333;
+  border-color: #f3f4f4; }
+
+.partialBookingCalendar .fc .fc-timegrid-slot-label-cushion {
+  color: #979ca6; }
+
+.partialBookingCalendar .fc-timegrid-col {
+  background-color: #ffffff !important; }
+
+.partialBookingCalendar .fc .fc-next-button {
+  background-color: #ffffff;
+  color: #1e2b37; }
+
+.partialBookingCalendar .fc .fc-prev-button {
+  background-color: #ffffff;
+  color: #1e2b37; }
+
+.partialBookingCalendar .fc-next-button:enabled:hover {
+  background: #3a4354 !important;
+  color: #ffffff !important; }
+
+.partialBookingCalendar .fc-prev-button:enabled:hover {
+  background: #3a4354 !important;
+  color: #ffffff !important; }
+
+.partialBookingCalendar .fc-header-toolbar {
+  background: #f3f4f4; }
+
+.customTimeFullcalendar svg {
+  fill: #3a4354; }
+
+.customTimeFullcalendar .btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.customTimeFullcalendar span.text-black, .customTimeFullcalendar div.text-black {
+  color: #17232c; }
+
+.booking-layout .tree-floor-btn,
+.booking-layout .tree-floor-outline-btn:hover,
+.booking-layout .date-time-btn:hover,
+.booking-layout .refresh-btn,
+.booking-layout .get-spaces-btn,
+.booking-layout .reset-bookings-btn,
+.booking-layout .next-btn,
+.booking-layout .back-button:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.booking-layout .back-button {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.booking-layout .tree-floor-outline-btn, .booking-layout .whiteDropDown, .booking-layout .whiteDropDown:focus, .booking-layout .date-time-btn {
+  border-color: #3a4354;
+  color: #3a4354;
+  background-color: #ffffff; }
+
+.booking-layout .bufferBackground {
+  background-color: #f3f9fc; }
+
+.booking-layout .MuiIconButton-colorPrimary {
+  color: #3a4354 !important; }
+
+.booking-layout .MuiTreeItem-root.Mui-selected > .MuiTreeItem-content .MuiTreeItem-label {
+  background-color: #ffffff !important; }
+
+.booking-layout .text-alizarin {
+  color: #ed1c24; }
+
+.booking-layout .selected-space {
+  background-color: #f3f9fc; }
+  .booking-layout .selected-space .border-top-1px-azure {
+    border-top: 1px solid #f3f4f4; }
+  .booking-layout .selected-space .btn, .booking-layout .selected-space .btn:focus {
+    color: #ffffff;
+    background-color: #dc3545;
+    border-color: #dc3545; }
+
+.zommcontrols {
+  background-color: #fff; }
+
+.icon-popover .close-btn, .icon-popover .book-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.guest-paper .add-guest-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.MuiAutocomplete-tag {
+  background-color: #3a4354 !important;
+  color: #ffffff !important; }
+  .MuiAutocomplete-tag svg {
+    fill: #ffffff; }
+
+.save-guest-modal .add-btn, .save-guest-modal .ok-btn, .save-guest-modal .update-btn, .save-guest-modal .greyButton:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.save-guest-modal .greyButton {
+  border-color: #b8b8b8;
+  color: #b8b8b8;
+  background-color: #ffffff; }
+
+#cancelBooking .light-text {
+  color: #808080; }
+
+#cancelBooking .cancel-btn, #cancelBooking .ok-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+#cancelBooking .cancel-bg {
+  background-color: #f2f3fa; }
+
+.confirm-booking-modal .confirm-btn, .confirm-booking-modal .ok-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.confirm-booking-modal .confirm-bg {
+  background-color: #f2f3fa; }
+
+.confirm-booking-modal span.chip {
+  background-color: #3a4354;
+  color: #ffffff; }
+
+.confirm-booking-modal .ant-timeline-item-tail {
+  border-left: 3px solid #3a4354 !important; }
+
+.confirm-booking-modal .ant-timeline-item-head-gray {
+  color: #3a4354 !important;
+  border-color: #3a4354 !important; }
+
+.confirm-booking-modal .light-text {
+  color: #808080; }
+
+.prescreen-modal div.light-text {
+  color: #808080; }
+
+.prescreen-modal .screening-right-container {
+  background-color: #f2f3fa; }
+
+.prescreen-modal .ok-btn, .prescreen-modal .finish-btn, .prescreen-modal .next-btn, .prescreen-modal .back-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.access-modal .access-bg {
+  background-color: #f2f3fa; }
+
+.access-modal .ok-btn, .access-modal .confirm-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.ocupy-modal .ocupy-bg {
+  background-color: #f2f3fa; }
+
+.ocupy-modal h4 {
+  color: #808080; }
+
+.ocupy-modal .ok-btn, .ocupy-modal .confirm-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.release-modal .confirm-btn, .release-modal .ok-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.release-modal h4 {
+  color: #808080; }
+
+.my-bookings .book-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.my-bookings .close-text {
+  color: #b3b3b3; }
+
+.my-bookings .bg-panelColor {
+  background-color: #f2f3fa; }
+
+.my-bookings .fc .fc-bg-event {
+  background-color: #e1eff7 !important; }
+
+.my-bookings .fc-scrollgrid-sync-inner {
+  background-color: #f2f3fa;
+  color: #3a4354; }
+
+.my-bookings .fc-daygrid-day-frame {
+  background-color: white; }
+
+.my-bookings table a,
+.my-bookings table a:hover {
+  color: #3a4354; }
+
+.my-bookings .fc-daygrid-event {
+  background-color: #44ade3;
+  color: #ffffff; }
+
+.my-bookings .fc-daygrid-event:hover {
+  background-color: #3a4354;
+  color: #ffffff; }
+
+.my-bookings .fc .fc-timeGridWeek-button {
+  background-color: #ffffff;
+  color: #3a4354; }
+
+.my-bookings .fc .fc-dayGridMonth-button {
+  background-color: #ffffff;
+  color: #3a4354; }
+
+.my-bookings .fc .fc-timeGridDay-button {
+  background-color: #ffffff;
+  color: #3a4354; }
+
+.my-bookings .fc .fc-prev-button {
+  background-color: #ffffff;
+  color: #1e2b37; }
+
+.my-bookings .fc .fc-next-button {
+  background-color: #ffffff;
+  color: #1e2b37; }
+
+.my-bookings .booking-panel-white {
+  background-color: #ffffff; }
+
+.my-bookings .arrow-down {
+  border-top: 12px solid #ffffff; }
+
+.my-bookings .preScreen-button {
+  color: #ffffff;
+  background-color: #1e2b37; }
+
+.my-bookings .fc-header-toolbar {
+  background-color: #f2f3fa; }
+
+.my-bookings .fc .fc-button-primary:not(:disabled):active,
+.my-bookings .fc .fc-button-primary:not(:disabled).fc-button-active {
+  color: #fff;
+  color: var(--fc-button-text-color, #fff);
+  background-color: #3a4354;
+  background-color: var(--fc-button-active-bg-color, #3a4354);
+  border-color: #3a4354;
+  border-color: var(--fc-button-active-border-color, #3a4354); }
+
+.my-bookings .guestEvent {
+  background-color: #44ade3;
+  color: #ffffff; }
+
+.my-bookings .employeeEvent {
+  background-color: #66cdaa;
+  color: #ffffff; }
+
+.my-bookings .employeeEventIndicator {
+  background-color: #66cdaa;
+  color: #000; }
+
+.my-bookings .guestEventIndicator {
+  background-color: #44ade3;
+  color: #000; }
+
+.analytics .analytics-font {
+  color: #3a4354; }
+
+.space-management a.active {
+  color: #3a4354;
+  border-bottom: 2.5px solid #3a4354; }
+
+.space-management .space-bg {
+  background-color: #f3f9fc; }
+
+.space-management .replace-btn, .space-management .discard-btn {
+  background-color: #ffffff;
+  border-color: #3a4354;
+  color: #3a4354; }
+
+.space-management .replace-btn:hover, .space-management .save-btn, .space-management .update-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.space-management .card-border {
+  border-bottom: 1px solid #cdcdcd; }
+
+.update-modal .ok-btn {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: #ffffff; }
+
+.update-modal .cancel-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.react-select__control {
+  background-color: #f3f9fc !important; }
+
+.popover-bg {
+  background-color: #f3f9fc; }
+  .popover-bg .add-btn, .popover-bg .remove-btn {
+    background-color: #3a4354;
+    border-color: #3a4354;
+    color: #ffffff; }
+
+.allocation-modal .head-bg {
+  background-color: #f2f3fa; }
+
+.allocation-modal .btn-remove {
+  border-color: #3a4354;
+  background-color: #f2f3fa;
+  color: #3a4354; }
+
+.allocation-modal .btn-cancel {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.allocation-modal .save-btn, .allocation-modal .btn-cancel:hover, .allocation-modal .ok-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.assign-popover {
+  background-color: #f3f9fc; }
+  .assign-popover .btn {
+    border-color: #3a4354;
+    background-color: #ffffff;
+    color: #3a4354; }
+  .assign-popover .btn:hover {
+    background-color: #3a4354 !important;
+    border-color: #3a4354 !important;
+    color: #ffffff !important; }
+
+.update-space-modal .btn-cancel {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.update-space-modal .update-btn, .update-space-modal .btn-cancel:hover, .update-space-modal .ok-btn, .update-space-modal .greyButton:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.update-space-modal .greyButton {
+  color: #b8b8b8;
+  border-color: #b8b8b8; }
+
+.cancel-booking-modal .greyButton {
+  color: #b8b8b8;
+  border-color: #b8b8b8; }
+
+.cancel-booking-modal .confirm-btn, .cancel-booking-modal .ok-btn, .cancel-booking-modal .greyButton:hover {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.cancel-booking-modal thead {
+  background-color: #eef1f6; }
+
+.adminMaintenance a.nav-link {
+  color: #3a4354; }
+
+.adminMaintenance a.active {
+  color: #3a4354;
+  border-bottom: 2.5px solid #3a4354; }
+
+.adminMaintenance .am-bg {
+  background-color: #f3f9fc; }
+
+.adminMaintenance .am-card-bg {
+  background-color: #ffffff; }
+  .adminMaintenance .am-card-bg thead {
+    background-color: #eef1f6; }
+
+.adminMaintenance .mark-as-cleaned-btn {
+  background-color: #3a4354;
+  color: #ffffff;
+  border-color: #3a4354; }
+
+.adminMaintenance #ExportwithOutEmp, .adminMaintenance #Filters {
+  background-color: #eef1f6;
+  color: #3a4354;
+  border-color: #3a4354; }
+
+.adminMaintenance #ExportwithEmp, .adminMaintenance .cancel-bookings-btn {
+  background-color: #3a4354;
+  color: #ffffff;
+  border-color: #3a4354; }
+
+.adminMaintenance .badge {
+  background-color: #343A40;
+  color: #ffffff;
+  border-color: #343A40; }
+
+.confirm-cleaning-modal .confrim-bg {
+  background-color: #eef1f6; }
+
+.confirm-cleaning-modal .btn-remove {
+  color: #3a4354;
+  background-color: #eef1f6;
+  border-color: #3a4354; }
+
+.confirm-cleaning-modal .confirm-btn, .confirm-cleaning-modal .ok-btn {
+  background-color: #3a4354;
+  color: #ffffff;
+  border: #3a4354; }
+
+.export-without-popover .btn, .export-with-popover .btn, .search-popover .btn {
+  background-color: #3a4354;
+  color: #ffffff;
+  border-color: #3a4354; }
+
+.checkbox label:before {
+  background-color: #ffffff;
+  border: 1px solid #c6c3c3; }
+
+.checkbox label:after {
+  border-bottom: 2px solid #ffffff;
+  border-left: 2px solid #ffffff; }
+
+.checkbox input[type="checkbox"]:checked ~ label:before {
+  border: 2px solid #3a4354; }
+
+.checkbox input[type="checkbox"]:checked + label:before {
+  background: #3a4354; }
+
+span.sort-by:before {
+  border-bottom-color: #808080; }
+
+span.sort-by:after {
+  border-top-color: #808080; }
+
+.thin-scrollbar::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #707070; }
+
+/* Handle */
+.thin-scrollbar::-webkit-scrollbar-thumb {
+  background: #9da2ab; }
+
+.table-responsive::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 3px #707070; }
+
+.table-responsive::-webkit-scrollbar-thumb {
+  background: #9da2ab; }
+
+input[type="checkbox"]:disabled + label:before {
+  cursor: not-allowed;
+  border-color: #9d9d9e !important;
+  color: #9d9d9e !important;
+  background: #eef1f6 !important; }
+
+.employees {
+  /* Track */
+  /* Handle */ }
+  .employees a.nav-link {
+    color: #3a4354; }
+  .employees a.active {
+    color: #3a4354;
+    border-bottom: 2.5px solid #3a4354; }
+  .employees .employee-bg, .employees .card-bg {
+    background-color: #f3f9fc; }
+  .employees .employee-card-bg {
+    background-color: #ffffff; }
+  .employees thead {
+    background-color: #eef1f6; }
+  .employees .export-btn, .employees .search-btn {
+    border-color: #3a4354;
+    background-color: #eef1f6;
+    color: #3a4354; }
+  .employees .badge {
+    background-color: #343A40;
+    color: #ffffff;
+    border-color: #343A40; }
+  .employees .general-info .card-bg {
+    background-color: #eef1f6; }
+  .employees .general-info thead {
+    background-color: #ffffff !important; }
+  .employees .checkbox label:before {
+    background-color: #ffffff;
+    border: 1px solid #c6c3c3; }
+  .employees .checkbox label:after {
+    border-bottom: 2px solid #ffffff;
+    border-left: 2px solid #ffffff; }
+  .employees .checkbox input[type="checkbox"]:checked ~ label:before {
+    border: 2px solid #3a4354; }
+  .employees .checkbox input[type="checkbox"]:checked + label:before {
+    background: #3a4354; }
+  .employees .sfilterarrow:after {
+    border-color: rgba(136, 183, 213, 0);
+    border-left-color: #f3f9fc; }
+  .employees .sfilterarrow:before {
+    border-color: rgba(53, 245, 39, 0);
+    border-left-color: rgba(0, 0, 0, 0.125); }
+  .employees span.sort-by:before {
+    border-bottom-color: #666; }
+  .employees span.sort-by:after {
+    border-top-color: #666; }
+  .employees .input-search {
+    background-color: #eef1f6; }
+  .employees .pagination-input {
+    background-color: #eef1f6; }
+  .employees .pagination button {
+    border: solid white;
+    background-color: white; }
+  .employees .pagination select {
+    background-color: #eef1f6; }
+  .employees .link-text > a {
+    color: #3a4354 !important; }
+  .employees .thin-scrollbar::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 3px #707070; }
+  .employees .thin-scrollbar::-webkit-scrollbar-thumb {
+    background: #9da2ab; }
+  .employees .label {
+    color: #ffffff; }
+  .employees .react-daterange-picker__wrapper {
+    border: thin solid #cccccc; }
+  .employees .edit-btn, .employees .close-btn {
+    background-color: #ffffff;
+    color: #3a4354;
+    border-color: #3a4354; }
+  .employees .edit-btn:hover, .employees .close-btn:hover {
+    background-color: #3a4354;
+    color: #ffffff;
+    border-color: #3a4354; }
+  .employees .employee-filter #Filters {
+    background-color: #3a4354;
+    color: #ffffff;
+    border-color: #3a4354; }
+
+.export-popover .btn, .search-popover .btn, .employeesPopoverCustom .btn {
+  background-color: #343A40;
+  color: #ffffff;
+  border-color: #343A40; }
+
+.edit-employee-modal .btn-cancel {
+  background-color: #cdcdcd;
+  border-color: #cdcdcd;
+  color: #808080; }
+
+.edit-employee-modal .update-btn, .edit-employee-modal .btn-cancel:hover, .edit-employee-modal .ok-btn {
+  background-color: #3a4354;
+  border-color: #3a4354;
+  color: #ffffff; }
+
+.modal-cancel-btn {
+  color: #b8b8b8;
+  border-color: #b8b8b8; }
+
+.modal-cancel-btn:hover {
+  color: #ffffff;
+  border-color: #3a4354;
+  background-color: #3a4354; }
+
